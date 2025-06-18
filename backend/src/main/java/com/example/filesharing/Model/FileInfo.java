@@ -1,0 +1,1 @@
+package com.example.filesharing.Model;public class FileInfo {    public String fileName;    public long uploadTime;    public boolean downloaded;    public FileInfo(String fileName, long uploadTime){        this.fileName = fileName;        this.uploadTime = uploadTime;        this.downloaded = false;    }}

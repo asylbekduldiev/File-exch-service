@@ -12,6 +12,7 @@ public class FileServer {
     public void start(int port) throws IOException {
         server = HttpServer.create(new InetSocketAddress(port), 0);
         server.createContext("/upload", new UploadHandler());
+        server.createContext("/download", new DownloadHandler());
         server.setExecutor(null);
         server.start();
         System.out.println("Server started at http://localhost:" + port + "/upload");

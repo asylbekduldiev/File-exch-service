@@ -1,0 +1,1 @@
+package com.example.filesharing;import com.example.filesharing.Model.FileInfo;import java.util.Map;import java.util.concurrent.ConcurrentHashMap;public class Storage {    public static final Map<String, FileInfo> downloadMap = new ConcurrentHashMap<>();}
