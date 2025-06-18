@@ -1,1 +1,5 @@
+com/example/filesharing/FileServer.class
+com/example/filesharing/MultipartParser.class
+com/example/filesharing/Main.class
+com/example/filesharing/UploadHandler.class
 com/example/filesharing/HttpExchangeRequestContext.class
