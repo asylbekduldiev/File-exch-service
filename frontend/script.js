@@ -1,9 +1,23 @@
-document.getElementById('uploadForm').onsubmit = async function (e) {
+document.querySelector("#uploadForm").addEventListener("submit", async (e) => {
   e.preventDefault();
-  const formData = new FormData(this);
-  const res = await fetch('http://localhost:8080/upload', {
-    method: 'POST',
-    body: formData,
-  });
-  alert(await res.text());
-};
+
+  const baseurl = "http://localhost:8080/upload";
+  const formData = new FormData(e.target);
+
+  try { 
+    const response = await fetch(baseurl, {
+      method: "POST",
+      body: formData
+    });  
+
+    if(!response.ok) {
+      alert("Error uploading file. Please try again.");
+      return;
+    }else{
+      alert("File uploaded successfully!");
+    }
+  } catch (error) {
+    alert("An error occurred while uploading the file: " + error.message);
+  }
+
+})
