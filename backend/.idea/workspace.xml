@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="675382d6-4e51-4b15-8746-b6fd5cc6aeeb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Model/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Model/FileInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/resource/DownloadResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/resource/DownloadResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/FileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/FileInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/UploadResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/UploadResource.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
