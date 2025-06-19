@@ -1,5 +1,7 @@
+/Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/DownloadHandler.java
 /Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/FileServer.java
-/Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/HttpExchangeRequestContext.java
 /Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/Main.java
+/Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/Model/FileInfo.java
 /Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/MultipartParser.java
-/Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/UploadHandler.java
+/Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/Storage.java
+/Users/asylbekduldiev/Doczilla-Jun_Task/backend/src/main/java/com/example/filesharing/UploadResource.java

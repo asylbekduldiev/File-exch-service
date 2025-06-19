@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="675382d6-4e51-4b15-8746-b6fd5cc6aeeb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/UploadResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/DownloadHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/DownloadHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Model/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Model/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/FileServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/HttpExchangeRequestContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/MultipartParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/MultipartParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/UploadHandler.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/DownloadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/DownloadHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/FileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/FileServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/HttpExchangeRequestContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/FileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/FileInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/MultipartParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/MultipartParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/UploadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

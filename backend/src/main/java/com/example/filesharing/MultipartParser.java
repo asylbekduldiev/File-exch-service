@@ -1,73 +1,41 @@
 package com.example.filesharing;
 
-import com.sun.net.httpserver.HttpExchange;
+import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.core.MediaType;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
+import org.glassfish.jersey.media.multipart.FormDataParam;
+import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 
+import java.io.*;
+
+@Path("/upload")
 public class MultipartParser {
 
-    public boolean handleUpload(HttpExchange exchange) {
-        try {
-            File uploadsDir = new File("uploads");
-            if (!uploadsDir.exists() && !uploadsDir.mkdirs()) {
-                throw new IOException("Cannot create uploads directory");
-            }
+    @POST
+    @Consumes(MediaType.MULTIPART_FORM_DATA)
+    public Response handleUploadAndReturnFile(
+            @FormDataParam("file") InputStream uploadedInputStream,
+            @FormDataParam("file") FormDataContentDisposition fileDetail) {
 
-            String contentTypeHeader = exchange.getRequestHeaders().getFirst("Content-type");
-            String boundary = null;
-            if (contentTypeHeader != null) {
-                String[] params = contentTypeHeader.split(";");
-                for (String param : params) {
-                    param = param.trim();
-                    if (param.startsWith("boundary=")) {
-                        boundary = param.substring("boundary=".length());
-                        if (boundary.startsWith("\"") && boundary.endsWith("\"")) {
-                            boundary = boundary.substring(1, boundary.length() - 1);
-                        }
-                    }
-                }
-            }
-            if (boundary == null) {
-                throw new IOException("Missing boundary in multipart/form-data");
-            }
+        String fileName = fileDetail.getFileName();
+        File uploadsDir = new File("uploads");
+        if (!uploadsDir.exists() && !uploadsDir.mkdirs()) {
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("Unable to create upload directory").build();
+        }
 
-            byte[] body = exchange.getRequestBody().readAllBytes();
-            String bodyStr = new String(body);
+        File uploadedFile = new File(uploadsDir, new File(fileName).getName());
 
-            String[] parts = bodyStr.split("--" + boundary);
-            for (String part : parts) {
-                if (part.contains("Content-Disposition") && part.contains("filename=\"")) {
-                    String[] headersAndData = part.split("\r\n\r\n", 2);
-                    if (headersAndData.length == 2) {
-                        String headers = headersAndData[0];
-                        String data = headersAndData[1];
-
-                        String fileName = null;
-                        for (String headerLine : headers.split("\r\n")) {
-                            if (headerLine.contains("filename=\"")) {
-                                int start = headerLine.indexOf("filename=\"") + 10;
-                                int end = headerLine.indexOf("\"", start);
-                                fileName = headerLine.substring(start, end);
-                            }
-                        }
-
-                        if (fileName != null && !fileName.isEmpty()) {
-                            File file = new File(uploadsDir, new File(fileName).getName()); // безопасность имени
-                            if (data.endsWith("\r\n")) {
-                                data = data.substring(0, data.length() - 2);
-                            }
-                            Files.write(file.toPath(), data.getBytes());
-                            System.out.println("Saved file: " + file.getAbsolutePath());
-                        }
-                    }
-                }
-            }
-            return true;
+        try (OutputStream out = new FileOutputStream(uploadedFile)) {
+            uploadedInputStream.transferTo(out);
+            System.out.println("Saved file: " + uploadedFile.getAbsolutePath());
         } catch (IOException e) {
             e.printStackTrace();
-            return false;
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).entity("File write failed").build();
         }
+
+        return Response.ok("Uploaded to: " + uploadedFile.getAbsolutePath()).build();
     }
 }
