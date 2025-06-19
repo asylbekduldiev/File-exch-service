@@ -1,7 +1,7 @@
-com/example/filesharing/resources/UploadResource.class
+com/example/filesharing/Model/Storage.class
+com/example/filesharing/CORSFilter.class
 com/example/filesharing/Model/FileInfo.class
-com/example/filesharing/MultipartParser.class
-com/example/filesharing/Storage.class
-com/example/filesharing/DownloadHandler.class
+com/example/filesharing/resource/UploadResource.class
+com/example/filesharing/resources/DownloadResource.class
 com/example/filesharing/FileServer.class
 com/example/filesharing/Main.class

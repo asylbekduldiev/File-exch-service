@@ -5,25 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="675382d6-4e51-4b15-8746-b6fd5cc6aeeb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/UploadResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/DownloadHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/DownloadHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/CORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/DownloadResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/resource/DownloadResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/FileServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/HttpExchangeRequestContext.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/MultipartParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/MultipartParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/UploadHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/DownloadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/DownloadHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/MultipartParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Model/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/UploadResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/resource/UploadResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/DownloadResource.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/FileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/FileServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/HttpExchangeRequestContext.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/FileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/FileInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/MultipartParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/MultipartParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Storage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/UploadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/MultipartParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/UploadResource.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Asyl-Resume.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "asylbekduldiev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;asylbekduldiev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/asylbekduldiev/File-exch-service.git",
-    "accountId": "125df11b-986c-4a7f-ade4-de6aa978e071"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/asylbekduldiev/File-exch-service.git&quot;,
+    &quot;accountId&quot;: &quot;125df11b-986c-4a7f-ade4-de6aa978e071&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -60,17 +58,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/asylbekduldiev/Doczilla-Jun_Task/backend"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/asylbekduldiev/Doczilla-Jun_Task/backend&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
