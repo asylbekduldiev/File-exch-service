@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Upload</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>File Upload</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>File Upload</h1>
-  <form id="uploadForm" enctype="multipart/form-data" method="POST">
-    <input type="file" name="file" />
-    <button type="submit">Upload</button>
-  </form>
+  <div class="container">
+    <h1>📤 Upload File</h1>
+
+    <input type="file" id="fileInput" />
+    <button type="button" id="uploadBtn">Upload</button>
+
+    <div id="status" class="status"></div>
+    <div id="downloadLink" class="link-block"></div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>

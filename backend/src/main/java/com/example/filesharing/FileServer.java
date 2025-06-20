@@ -1,5 +1,6 @@
 package com.example.filesharing;
 
+import com.example.filesharing.Filter.CORSFilter;
 import jakarta.ws.rs.core.UriBuilder;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;

@@ -1,6 +1,7 @@
 package com.example.filesharing;
 
-import com.example.filesharing.Auth.AuthFilter;
+import com.example.filesharing.Filter.AuthFilter;
+import com.example.filesharing.Filter.CORSFilter;
 import com.example.filesharing.resource.FileCleaner;
 
 import org.glassfish.grizzly.http.server.HttpServer;
@@ -16,7 +17,7 @@ public class Main {
 
     public static HttpServer startServer() {
         ResourceConfig config = new ResourceConfig()
-                .packages("com.example.filesharing.resources")
+                .packages("com.example.filesharing.resource")
                 .register(MultiPartFeature.class)
                 .register(CORSFilter.class)
                 .register(AuthFilter.class);

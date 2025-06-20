@@ -6,13 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="675382d6-4e51-4b15-8746-b6fd5cc6aeeb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Auth/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Filter/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/CORSFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/FileServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Model/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/Model/FileInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/filesharing/resource/DownloadResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/filesharing/resource/DownloadResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Auth/AuthFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/FileServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/FileServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/FileInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/FileInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/Model/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/DownloadResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/DownloadResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/FileCleaner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/FileCleaner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/StatsResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/StatsResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/UploadResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/filesharing/resource/UploadResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/filesharing/resources/DownloadResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/Screenshot 2025-05-31 at 17.16.49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +74,26 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/asylbekduldiev/Doczilla-Jun_Task/backend&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.filesharing.Main" />
+      <module name="filesharing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.filesharing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
